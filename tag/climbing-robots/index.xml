@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Climbing Robots | Jingwen Zhang</title>
+    <link>https://jingwen-zhang.github.io/tag/climbing-robots/</link>
+      <atom:link href="https://jingwen-zhang.github.io/tag/climbing-robots/index.xml" rel="self" type="application/rss+xml" />
+    <description>Climbing Robots</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021} Jingwen Zhang</copyright><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jingwen-zhang.github.io/media/icon_hu75293ec3a8d822e73e2324ff5f76cbe5_19334_512x512_fill_lanczos_center_3.png</url>
+      <title>Climbing Robots</title>
+      <link>https://jingwen-zhang.github.io/tag/climbing-robots/</link>
+    </image>
+    
+    <item>
+      <title>Wall Climbing Robot</title>
+      <link>https://jingwen-zhang.github.io/project/2/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://jingwen-zhang.github.io/project/2/</guid>
+      <description>&lt;p&gt;SiLVIA (Six Legged Vehicle with Intelligent Articulation) is a six-legged robot who can brace itself between two vertical walls and climb vertically with end-effectors that only use friction. Previsouly, we already implemented a two-stage optimization method to plan the on-wall motions so that it can deal with irregular wall profiles. And transition behaviours are also optimized using a nonlinear programming. Please check details on our papers.&lt;/p&gt;
+&lt;p&gt;Now, I am working on modelling a potential coupling relationship between controllable contact forces and uncontrollable contact torques. All of previous planners will benefit from this model so as to improve the performance on the real hardware.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

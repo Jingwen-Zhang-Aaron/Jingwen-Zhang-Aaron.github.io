@@ -5,7 +5,7 @@
     <link>https://jingwen-zhang.github.io/project/</link>
       <atom:link href="https://jingwen-zhang.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021} Jingwen Zhang</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021} Jingwen Zhang</copyright><lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jingwen-zhang.github.io/media/icon_hu75293ec3a8d822e73e2324ff5f76cbe5_19334_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,15 +13,32 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://jingwen-zhang.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jingwen-zhang.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Bipedal Robotic Locomotion</title>
+      <link>https://jingwen-zhang.github.io/project/1/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://jingwen-zhang.github.io/project/1/</guid>
+      <description>&lt;p&gt;BRUCE (Bipedal Robot Unit with Compliance Enhanced) is a miniature bipedal robot with proprioceptive actuation. Each leg gof BRUCE has 5 degrees of freedom, which include a spherical hip joint, a knee joint, and an ankle joint. BRUCE is being developed in order to make it as an open-source and accessible miniature humanoid robotic platform for studies on humanoid dynamic behaviours.&lt;/p&gt;
+&lt;p&gt;NABi2 (Non-Anthropomorphic Biped V2) is a low cost, low complexity bipedal robot that can walk, jump, and even dance! NABi is built with lightweight, modular components, but its design modifies the traditional humanoid form by aligning its legs in a plane, allowing it to only have 4 actuated joints compared to the normal 12.&lt;/p&gt;
+&lt;p&gt;Currently, I am working on applying optimization-based methods to improve their performance on dynamic behaviours, like jumping and running. At the same time, sensor improvement is being conducted in order to track optimized trajectories better. More publications on this project are coming soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wall Climbing Robot</title>
+      <link>https://jingwen-zhang.github.io/project/2/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://jingwen-zhang.github.io/project/2/</guid>
+      <description>&lt;p&gt;SiLVIA (Six Legged Vehicle with Intelligent Articulation) is a six-legged robot who can brace itself between two vertical walls and climb vertically with end-effectors that only use friction. Previsouly, we already implemented a two-stage optimization method to plan the on-wall motions so that it can deal with irregular wall profiles. And transition behaviours are also optimized using a nonlinear programming. Please check details on our papers.&lt;/p&gt;
+&lt;p&gt;Now, I am working on modelling a potential coupling relationship between controllable contact forces and uncontrollable contact torques. All of previous planners will benefit from this model so as to improve the performance on the real hardware.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>INNOVA HAND, a Versatile and Simple Robotic Hand</title>
+      <link>https://jingwen-zhang.github.io/project/3/</link>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://jingwen-zhang.github.io/project/3/</guid>
+      <description>&lt;p&gt;To balance cost and dexterity, current robotic hands for service robot are mainly focused on 2 or 3 finger underactuated hands. Inspired by winter mitten, even with four fingers tied together human hand are still functional to grasp a wide range of objects. INNOVA used one Thumb and one four-in-one Finger to accomplish fingertip, enveloping and fist grasping pose.&lt;/p&gt;
 </description>
     </item>
     

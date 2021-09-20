@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 | Jingwen Zhang</title>
+    <link>https://jingwen-zhang.github.io/publication-type/8/</link>
+      <atom:link href="https://jingwen-zhang.github.io/publication-type/8/index.xml" rel="self" type="application/rss+xml" />
+    <description>8</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021} Jingwen Zhang</copyright><lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jingwen-zhang.github.io/media/icon_hu75293ec3a8d822e73e2324ff5f76cbe5_19334_512x512_fill_lanczos_center_3.png</url>
+      <title>8</title>
+      <link>https://jingwen-zhang.github.io/publication-type/8/</link>
+    </image>
+    
+    <item>
+      <title>(CN) A Low-Temperature Measurement Apparatus of Resonant Ultrasound Spectroscopy (RUS) (一种超声共振谱仪低温测试装置)</title>
+      <link>https://jingwen-zhang.github.io/publication/p4/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://jingwen-zhang.github.io/publication/p4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

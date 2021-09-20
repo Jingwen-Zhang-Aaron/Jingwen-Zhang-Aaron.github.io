@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robotic Manipulation | Jingwen Zhang</title>
+    <link>https://jingwen-zhang.github.io/tag/robotic-manipulation/</link>
+      <atom:link href="https://jingwen-zhang.github.io/tag/robotic-manipulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robotic Manipulation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021} Jingwen Zhang</copyright><lastBuildDate>Sat, 18 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jingwen-zhang.github.io/media/icon_hu75293ec3a8d822e73e2324ff5f76cbe5_19334_512x512_fill_lanczos_center_3.png</url>
+      <title>Robotic Manipulation</title>
+      <link>https://jingwen-zhang.github.io/tag/robotic-manipulation/</link>
+    </image>
+    
+    <item>
+      <title>INNOVA HAND, a Versatile and Simple Robotic Hand</title>
+      <link>https://jingwen-zhang.github.io/project/3/</link>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://jingwen-zhang.github.io/project/3/</guid>
+      <description>&lt;p&gt;To balance cost and dexterity, current robotic hands for service robot are mainly focused on 2 or 3 finger underactuated hands. Inspired by winter mitten, even with four fingers tied together human hand are still functional to grasp a wide range of objects. INNOVA used one Thumb and one four-in-one Finger to accomplish fingertip, enveloping and fist grasping pose.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bipedal Robots | Jingwen Zhang</title>
+    <link>https://jingwen-zhang.github.io/tag/bipedal-robots/</link>
+      <atom:link href="https://jingwen-zhang.github.io/tag/bipedal-robots/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bipedal Robots</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2021} Jingwen Zhang</copyright><lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jingwen-zhang.github.io/media/icon_hu75293ec3a8d822e73e2324ff5f76cbe5_19334_512x512_fill_lanczos_center_3.png</url>
+      <title>Bipedal Robots</title>
+      <link>https://jingwen-zhang.github.io/tag/bipedal-robots/</link>
+    </image>
+    
+    <item>
+      <title>Bipedal Robotic Locomotion</title>
+      <link>https://jingwen-zhang.github.io/project/1/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://jingwen-zhang.github.io/project/1/</guid>
+      <description>&lt;p&gt;BRUCE (Bipedal Robot Unit with Compliance Enhanced) is a miniature bipedal robot with proprioceptive actuation. Each leg gof BRUCE has 5 degrees of freedom, which include a spherical hip joint, a knee joint, and an ankle joint. BRUCE is being developed in order to make it as an open-source and accessible miniature humanoid robotic platform for studies on humanoid dynamic behaviours.&lt;/p&gt;
+&lt;p&gt;NABi2 (Non-Anthropomorphic Biped V2) is a low cost, low complexity bipedal robot that can walk, jump, and even dance! NABi is built with lightweight, modular components, but its design modifies the traditional humanoid form by aligning its legs in a plane, allowing it to only have 4 actuated joints compared to the normal 12.&lt;/p&gt;
+&lt;p&gt;Currently, I am working on applying optimization-based methods to improve their performance on dynamic behaviours, like jumping and running. At the same time, sensor improvement is being conducted in order to track optimized trajectories better. More publications on this project are coming soon!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
