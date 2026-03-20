@@ -152,17 +152,22 @@ strong {
     border-bottom: 1px solid #ddd;
 }
 
+#research > div {
+    margin-bottom: 1em;
+}
+
 .research-thumb {
     width: 20em;
-    height: 20em;
     float: left;
     margin-top: 7px;
     padding-right: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .research-thumb img {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 .research-proj-title {
