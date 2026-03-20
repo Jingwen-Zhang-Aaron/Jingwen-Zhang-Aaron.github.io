@@ -1,11 +1,18 @@
 :root {
 	--grey: rgb(90, 90, 90);
-	/* Columbia Blues: https://visualidentity.columbia.edu/content/colors-1 */
-	--blue1: rgb(2,33,105);
-	--blue2: rgb(0,51,160);
-	--blue3: rgb(0,114,206);
-	--blue4: rgb(108,172,228);
-	--pink1: #F9564F;
+	/* Steel Blue + Coral color scheme */
+	--primary: #2d3748;      /* Headers, strong text */
+	--secondary: #4a5568;    /* Subheadings */
+	--accent: #FF7F50;       /* Important buttons, highlights */
+	--link: #3182ce;         /* Links, interactive elements */
+	--text: #1a202c;         /* Body text */
+	--muted: #718096;        /* Meta info, timestamps */
+	--background: #ffffff;   /* Main background */
+	--surface: #edf2f7;      /* Cards, hover states */
+	
+	/* Legacy variables for compatibility */
+	--blue1: #2d3748;
+	--pink1: #FF7F50;
  }
 
 html, p{
@@ -35,7 +42,12 @@ ul {
 
 a {
     text-decoration: none;
-    color:  var(--pink1);
+    color: var(--link);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent);
 }
 
 i {
@@ -44,7 +56,7 @@ i {
 
 h1 {
     font-weight: 500;
-    color: var(--blue1);
+    color: var(--primary);
 }
 
 b {
@@ -52,7 +64,7 @@ b {
 }
 
 strong {
-    color: #fdc450;
+    color: #FF7F50;
     font-weight: 700;
 }
 
@@ -97,17 +109,30 @@ strong {
 }
 
 #profile img {
-    width: 400px;
-    margin-bottom: 18px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 50%;
 }
 
 #profile-name {
-    font-size: 3em;
-    line-height: 1em;
+    font-size: 2.5em;
+    line-height: 1.2em;
     font-weight: 400;
     margin-bottom: 10px;
-    color: var(--blue1);
+    color: var(--primary);
     text-align: center;
+}
+
+.name-english {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.name-chinese {
+    font-size: 0.4em;
+    font-weight: 300;
+    color: var(--secondary);
+    margin-top: 5px;
 }
 
 
@@ -143,4 +168,92 @@ strong {
 .research-proj-title {
     color: var(--blue1);
     font-weight: 400;
+}
+
+/* Responsive Design for Mobile and Tablet */
+@media screen and (max-width: 1024px) {
+    #header {
+        width: 100%;
+        left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    
+    body > div {
+        width: 100% !important;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Stack profile layout on tablets */
+    #profile-pic {
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+    
+    #profile img {
+        width: 200px;
+    }
+    
+    #profile-intro {
+        text-align: center;
+    }
+    
+    #profile-name {
+        font-size: 2em;
+    }
+    
+    /* Stack research thumbnails on tablets */
+    .research-thumb {
+        float: none;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto 20px auto;
+        padding-right: 0;
+        display: block;
+    }
+    
+    .research-thumb img,
+    .research-thumb video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Mobile optimizations */
+    #header {
+        font-size: 0.9em;
+        height: auto;
+        line-height: 1.5em;
+        flex-wrap: wrap;
+    }
+    
+    #profile {
+        padding: 70px 10px 10px 10px;
+    }
+    
+    #profile img {
+        width: 150px;
+    }
+    
+    #profile-name {
+        font-size: 1.5em;
+    }
+    
+    #profile-email {
+        font-size: 0.9em;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 0.95em;
+    }
 }

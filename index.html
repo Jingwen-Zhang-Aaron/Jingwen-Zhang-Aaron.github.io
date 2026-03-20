@@ -13,25 +13,25 @@
     <div style="width:1000px;margin: 0px auto;">
         <header id="header" width="400px" style="display:flex;justify-content: space-around;">
             <a href="#profile-intro">Home</a>
+            <a href="#updates">Updates</a>
             <a href="#research">Research</a>
-            <a href="#teaching">Teaching</a>
             <!-- <a href="#projects">Projects</a> -->
         </header>
         <div id="profile">
             <div id="profile-pic">
                 <img src="assets/images/profile.jpg" />
+                <p style="text-align:center;margin-top:10px;font-size:0.9em;color:var(--muted);">Photo by <a href="https://www.linkedin.com/in/yanqi-design/"> Yanqi Li</a></p>
             </div>
             <div id="profile-intro">
-                <div id="profile-name">Jingwen Zhang 张精文</div>
-                <div id="profile-email">zhjwzhang@g.ucla.edu</div>
+                <div id="profile-name">
+                    <div class="name-english">Jingwen Zhang</div>
+                    <div class="name-chinese">张精文 (Aaron) - zhjwzhang@gmail.com</div>
+                </div>
                 <p>
-                    My name is Jingwen Zhang (张精文), a PhD candidate in Robotics and Mechanism Laboratory (RoMeLa) at UCLA, with professor Dennis Hong. My research interests are in the area of studying legged robots and novel robot locomotion strategies via both intelligent design and optimization-based motion planning. Currently, I am working on implementing and improving highly dynamic behaviors including running and jumping on bipedal robots (NABi2 & BRUCE) in our lab. Previously, I and my labmates developed a hexapod robot which is capable of climbing walls utilizing only friction forces. And modeling on the reaction force and torque of the climbing robot is an ongoing project as well in order to improve the planning performance.
+                    I am a robotics researcher working on humanoid control at <a href="https://eng.bigai.ai/"> BIGAI</a>. Previously, I was fortunate to be advised by Professor <a href="https://www.romela.org/dr-dennis-hong/"> Dennis Hong</a> and received my Ph.D. in Mechanical Engineering from UCLA, where I built robots that walk, jump, climb, and occasionally made life difficult in the most interesting ways. My work spanned optimization-based locomotion planning, legged robot design, reinforcement learning, and dynamic control. Recent work focused on making humanoids more energy-efficient and capable in the real world with limited data. I am always passionate in bridging classic model-based control with learning-based methods to improve robustness and precision, particularly for humanoid loco-manipulation.
                 </p>
                 <p>
-                    <strong>Research Interests:</strong> Legged Robot Locomotion, Optimization-based Motion Planning, Intelligent Robot Design and Modelling
-                </p>
-                <p>
-                    <strong>Education:</strong> PhD in Robotics (2017-present) at UCLA, MS in ME (2015-2016) at Columbia, BS in ME (2011-2015) at Tsinghua
+                    Outside the lab, I enjoys badminton, basketball and mixology. And support <a href="http://slow-science.org/"> Slow Science</a> and <a href="https://www.science.org/doi/10.1126/scirobotics.aea7390"> Good Old-Fashioned Engineering</a>!
                 </p>
                 <div>
                     <a href="assets/files/cv.pdf">
@@ -53,275 +53,193 @@
             </div>
             <div style="clear: both;"></div>
         </div>
-        <!-- UPDATES SECTION COMMENTED OUT
+        <div class="divider"></div>
         <div class="section" id="updates">
             <h1>Updates</h1>
             <ul>
-                <li> <b>Nov 2025</b> Out of steath! <a href="https://sunday.ai/">Sunday Robotics</a>
-                <li> <b>July 2024</b> <a href="https://umi-gripper.github.io/">UMI</a> has been selected as <a href="https://roboticsconference.org/2024/program/awards">Best Systems Paper Finalist</a> at RSS 2024!
-                <li> <b>May 2024</b> Two papers accepted to RSS 2024
-                <li> <b>Apr 2023</b> Two papers accepted to RSS 2023
-                <li> <b>Dec 2022</b> Got into <a href="https://blogs.nvidia.com/blog/2022/12/14/nvidia-awards-research-fellowships-2022/">NVIDIA Graduate Fellowship</a> Finalist.
-                <li> <b>Jun 2022</b> <a href="https://irp.cs.columbia.edu/">Iterative Residual Policy</a> won the <a href="https://roboticsconference.org/2022/program/awards">Best Paper Award</a> at RSS 2022!
-                <li> <b>May 2022</b> <a href="https://irp.cs.columbia.edu/">Iterative Residual Policy</a> has been selected as <a href="https://roboticsconference.org/2022/program/awards">Best Student Paper Finalist</a> at RSS 2022!
-                <li> <b>May 2022</b> <a href="https://dextairity.cs.columbia.edu/">DextAIRity</a> has been selected as <a href="https://roboticsconference.org/2022/program/awards">Best Systems Paper Finalist</a> at RSS 2022!
-                <li> <b>May 2022</b> Two papers accepted to RSS 2022
-                <li> <b>Jul 2021</b> <a href="https://garmentnets.cs.columbia.edu/">GarmentNets</a> has been accpeted to ICCV 2021
-                <li> <b>Jan 2021</b> I started my PhD at Columbia University, advised by Prof. <a href="https://shurans.github.io/">Shuran Song</a>
-                <li> <b>Jan 2020</b> I started working for <a href="https://www.nuro.ai/">Nuro</a>'s Mapping and Localization Team
+                <li> <b>Feb 2026</b> <a href="https://github.com/bigai-ai/ECO-humanoid">ECO</a>, a constrained RL framework which reduces energy consumption 2-6x, was available on <a href="https://ieeexplore.ieee.org/document/11396018">T-ASE</a></li>
+                <li> <b>Jan 2026</b> <a href="https://github.com/bigai-ai/LIFT-humanoid">LIFT</a>, a model-based RL framework on real humanoids based on SAC, was accepted to <a href="https://iclr.cc/virtual/2026/poster/10009878">ICLR 2026</a>! </li>
+                <li> <b>Oct 2025</b> Issac-based simulator for humanoid robot competition and education <a href="https://github.com/pr2-humanoid/PR2-Platform">PR2</a> was open-sourced and presented at <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22588">JFR</a></li>
+                <li> <b>May 2024</b> Paper on CDM-MPC for bipedal jumping accepted to <a href="https://www.ieee-ras.org/publications/ra-l/">IEEE RA-L</a>!</li>
+                <li> <b>Mar 2023</b> Successfully defended PhD dissertation on optimization-based motion planning for legged robots at <a href="https://www.romela.org/">UCLA RoMeLa</a>!</li>
+                <li> <b>May 2022</b> Bipedal robot <a href="https://www.westwoodrobotics.io/icra/">BRUCE</a> was presented at <a href="https://ewh.ieee.org/soc/ras/conf/fullysponsored/icra/2022/icra2022.org/program/program-overview.html">ICRA 2022</a>, check <a href="https://www.youtube.com/watch?v=NYFfn8bBUek">video</a> here</li>
+                <li> <b>Oct 2019</b> Won <strong>Best Paper Award</strong> at <a href="https://www.iros2019.org/">IROS 2019</a> for SiLVIA climbing robot work!</li>
             </ul>
             <p></p>
             <div style="clear: both;"></div>
         </div>
         <div class="divider"></div>
-        -->
         <div style="display:flex;flex-direction: column;" id="research">
             <h1>Research</h1>
+            
             <div>
-                <a href="https://umi-gripper.github.io/" style="height: 14em;" class="research-thumb">
+                <a href="https://github.com/bigai-ai/ECO-humanoid" class="research-thumb">
+                    <img src="assets/images/publications/ECO.png" alt="ECO Humanoid Walking">
+                </a>
+                <a href="https://github.com/bigai-ai/ECO-humanoid" class="research-proj-title">
+                    ECO: Energy-Constrained Optimization with Reinforcement Learning for Humanoid Walking
+                </a>
+                <p>
+                    Weidong Huang*, <b>Jingwen Zhang*</b>, Jiongye Li, Shibowen Zhang, Jiayang Wu, Jiayi Wang, Hangxin Liu, Yaodong Yang, Yao Su
+                    <br>The IEEE Transactions on Automation Science and Engineering (T-ASE) 2026<br>
+                    <a href="https://arxiv.org/abs/2602.06445">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://sites.google.com/view/eco-humanoid">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/bigai-ai/ECO-humanoid">Code</a>
+                </p>
+                <div style="clear: both;"></div>
+            </div>
+
+            <div>
+                <a href="https://lift-humanoid.github.io/" class="research-thumb">
+                    <img src="assets/images/publications/LIFT.png" alt="LIFT Humanoid Control">
+                </a>
+                <a href="https://lift-humanoid.github.io/" class="research-proj-title">
+                    Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control
+                </a>
+                <p>
+                    Weidong Huang, Zhehan Li, Hangxin Liu, Biao Hou, Yao Su, <b>Jingwen Zhang</b>
+                    <br>The 14th International Conference on Learning Representations (ICLR) 2026<br>
+                    <a href="https://arxiv.org/pdf/2601.21363">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://lift-humanoid.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/bigai-ai/LIFT-humanoid">Code</a>
+                </p>
+                <div style="clear: both;"></div>
+            </div>
+
+            <div>
+                <a href="https://pr2-humanoid.github.io/" class="research-thumb">
+                    <img src="assets/images/publications/PR2.png" alt="PR2 Humanoid Testbed">
+                </a>
+                <a href="https://pr2-humanoid.github.io/" class="research-proj-title">
+                    PR2: A Physics-and Photo-Realistic Humanoid Testbed With Pilot Study in Competition
+                </a>
+                <p>
+                    Hangxin Liu, Qi Xie, Zeyu Zhang, Tao Yuan, Song Wang, Zaijin Wang, Xiaokun Leng, Lining Sun, <b>Jingwen Zhang*</b>, Zhicheng He*, Yao Su*
+                    <br>Journal of Field Robotics 2025<br>
+                    <a href="https://arxiv.org/abs/2409.01559">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://pr2-humanoid.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/pr2-humanoid/PR2-Platform">Code</a>
+                </p>
+                <div style="clear: both;"></div>
+            </div>
+
+            <div>
+                <a href="https://arxiv.org/pdf/2405.11773" class="research-thumb">
+                    <img src="assets/images/publications/kuavo_jump.png" alt="CDM-MPC: An Integrated Dynamic Planning and Control Framework for Bipedal Robots Jumping">
+                </a>
+                <a href="https://arxiv.org/pdf/2405.11773" class="research-proj-title">
+                    CDM-MPC: An Integrated Dynamic Planning and Control Framework for Bipedal Robots Jumping
+                </a>
+                <p>
+                    Zhicheng He, Jiayang Wu, <b>Jingwen Zhang</b>, Shibowen Zhang, Yapeng Shi, Hangxin Liu, Lining Sun, Yao Su, Xiaokun Leng
+                    <br>IEEE Robotics and Automation Letters (RA-L) 2024<br>
+                    <a href="https://arxiv.org/pdf/2405.11773">ArXiv</a>
+                </p>
+                <div style="clear: both;"></div>
+            </div>
+
+            <div>
+                <a href="https://arxiv.org/pdf/2304.00536" class="research-thumb">
+                    <img src="assets/images/publications/bruce_jump.png" alt="Design of a Jumping Control Framework with Heuristic Landing for Bipedal Robots">
+                </a>
+                <a href="https://arxiv.org/pdf/2304.00536" class="research-proj-title">
+                    Design of a Jumping Control Framework with Heuristic Landing for Bipedal Robots
+                </a>
+                <p>
+                    <b>Jingwen Zhang</b>, Junjie Shen, Yeting Liu, Dennis Hong
+                    <br>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023<br>
+                    <a href="https://arxiv.org/pdf/2304.00536">ArXiv</a>
+                </p>
+                <div style="clear: both;"></div>
+            </div>
+
+            <div>
+                <a href="http://www.seas.ucla.edu/~junjie/publication/Implementation%20of%20a%20Robust%20Dynamic%20Walking%20Controller%20on%20a%20Miniature%20Bipedal%20Robot%20with%20Proprioceptive%20Actuation.pdf" class="research-thumb">
+                    <img src="assets/images/publications/bruce_walk.png" alt="Implementation of a Robust Dynamic Walking Controller on a Miniature Bipedal Robot with Proprioceptive Actuation">
+                </a>
+                <a href="http://www.seas.ucla.edu/~junjie/publication/Implementation%20of%20a%20Robust%20Dynamic%20Walking%20Controller%20on%20a%20Miniature%20Bipedal%20Robot%20with%20Proprioceptive%20Actuation.pdf" class="research-proj-title">
+                    Implementation of a Robust Dynamic Walking Controller on a Miniature Bipedal Robot with Proprioceptive Actuation
+                </a>
+                <p>
+                    Junjie Shen, <b>Jingwen Zhang</b>, Yeting Liu, Dennis Hong
+                    <br>IEEE-RAS International Conference on Humanoid Robots (Humanoids) 2022<br>
+                    <a href="http://www.seas.ucla.edu/~junjie/publication/Implementation%20of%20a%20Robust%20Dynamic%20Walking%20Controller%20on%20a%20Miniature%20Bipedal%20Robot%20with%20Proprioceptive%20Actuation.pdf">PDF</a>
+                </p>
+                <div style="clear: both;"></div>
+            </div>
+
+            <div>
+                <a href="https://www.westwoodrobotics.io/bruce/" class="research-thumb" style="height: 14em;">
                     <video width="320" height="auto" autoplay loop muted>
-                        <source src="assets/images/umi_thumbnail.mp4" type="video/mp4">
+                        <source src="assets/images/publications/bruce.mp4" type="video/mp4">
                     </video>
                 </a>
-                <a href="https://umi-gripper.github.io/" class="research-proj-title">
-                    Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots
+                <a href="https://www.westwoodrobotics.io/bruce/" class="research-proj-title">
+                    Design and Control of a Miniature Bipedal Robot with Proprioceptive Actuation for Dynamic Behaviors
                 </a>
                 <p>
-                    <b>Cheng Chi</b>*,
-                    <a style="color:#000;" href="https://zhenjiaxu.com/">Zhenjia Xu</a>*,
-                    <a style="color:#000;" href="https://chuerpan.com/">Chuer Pan</a>,
-                    <a style="color:#000;" href="https://www.eacousineau.com/">Eric Cousineau</a>,
-                    <a style="color:#000;" href="http://www.benburchfiel.com/">Ben Burchfiel</a>,
-                    <a style="color:#000;" href="https://www.cs.cmu.edu/~sfeng/">Siyuan Feng</a>,
-                    <br>
-                    <a style="color:#000;" href="https://groups.csail.mit.edu/locomotion/russt.html/">Russ Tedrake</a>,
-                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
-                    <br>Robotics: Science and Systems (RSS) 2024<br>
-                    <strong>Best Systems Paper Finalist</strong> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://umi-gripper.github.io/"">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2402.10329">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://x.com/chichengcc/status/1758539728444629158">Twitter</a>
-                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                    <!-- <a href="https://youtu.be/7h3SZ3La-oA">Video</a> -->
+                    Yeting Liu, Junjie Shen, <b>Jingwen Zhang</b>, Xiaoguang Zhang, Taoyuanmin Zhu, Dennis Hong
+                    <br>International Conference on Robotics and Automation (ICRA) 2022<br>
+                    <a href="https://www.westwoodrobotics.io/bruce/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://ieeexplore.ieee.org/abstract/document/9811790">PDF</a>
                 </p>
+                <div style="clear: both;"></div>
             </div>
 
             <div>
-                <a href="https://robotics-transformer-x.github.io/" style="height: 14em;" class="research-thumb">
-                    <img width="320" src="assets/images/RT-x.png" alt="">
+                <a href="https://arxiv.org/pdf/2106.07127" class="research-thumb">
+                    <img src="assets/images/publications/transition_climb.png" alt="Transition Motion Planning for Multi-limbed Vertical Climbing Robots Using Complementarity Constraints">
                 </a>
-                <a href="https://robotics-transformer-x.github.io/" class="research-proj-title">
-                    Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+                <a href="https://arxiv.org/pdf/2106.07127" class="research-proj-title">
+                    Transition Motion Planning for Multi-limbed Vertical Climbing Robots Using Complementarity Constraints
                 </a>
                 <p>
-                    <a style="color:#000;" >Abhishek Padalkar et al</a>
-                    <br>International Conference on Robotics and Automation (ICRA) 2024<br>
-                    <strong>Best Paper Award</strong> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://robotics-transformer-x.github.io/"">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/pdf/2310.08864.pdf">ArXiv</a>
-                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                    <!-- <a href="https://youtu.be/7h3SZ3La-oA">Video</a> -->
+                    <b>Jingwen Zhang</b>, Xuan Lin, Dennis W Hong
+                    <br>International Conference on Robotics and Automation (ICRA) 2021<br>
+                    <a href="https://arxiv.org/pdf/2106.07127">ArXiv</a>
                 </p>
+                <div style="clear: both;"></div>
             </div>
 
             <div>
-                <a href="https://diffusion-policy.cs.columbia.edu/" style="height: 14em;" class="research-thumb">
+                <a href="http://www.seas.ucla.edu/~junjie/publication/Kinematic%20Analysis%20and%20Design%20Optimization%20for%20a%20Reduced-DoF%20Quadruped%20Robot%20with%20Minimal%20Torque%20Requirements.pdf" class="research-thumb" style="height: 14em;">
                     <video width="320" height="auto" autoplay loop muted>
-                        <source src="assets/images/diffusion_policy_thumbnail.mp4" type="video/mp4">
+                        <source src="assets/images/publications/lizzard.mp4" type="video/mp4">
                     </video>
                 </a>
-                <a href="https://diffusion-policy.cs.columbia.edu/" class="research-proj-title">
-                    Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
+                <a href="http://www.seas.ucla.edu/~junjie/publication/Kinematic%20Analysis%20and%20Design%20Optimization%20for%20a%20Reduced-DoF%20Quadruped%20Robot%20with%20Minimal%20Torque%20Requirements.pdf" class="research-proj-title">
+                    Kinematic Analysis and Design Optimization for a Reduced-DoF Quadruped Robot with Minimal Torque Requirements
                 </a>
                 <p>
-                    <b>Cheng Chi</b>,
-                    <a style="color:#000;" href="https://www.cs.cmu.edu/~sfeng/">Siyuan Feng</a>,
-                    <a style="color:#000;" href="https://yilundu.github.io/">Yilun Du</a>,
-                    <a style="color:#000;" href="https://zhenjiaxu.com/">Zhenjia Xu</a>,
-                    <a style="color:#000;" href="https://www.eacousineau.com/">Eric Cousineau</a>,
-                    <a style="color:#000;" href="http://www.benburchfiel.com/">Ben Burchfiel</a>,
-                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
-                    <br>Robotics: Science and Systems (RSS) 2023<br>
-                    <a href="https://diffusion-policy.cs.columbia.edu/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2303.04137">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://x.com/chichengcc/status/1633339455250526213">Twitter</a>
-                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                    <!-- <a href="https://youtu.be/7h3SZ3La-oA">Video</a> -->
+                    <b>Jingwen Zhang</b>, Junjie Shen, Dennis W Hong
+                    <br>2020 17th International Conference on Ubiquitous Robots (UR) 2020<br>
+                    <a href="http://www.seas.ucla.edu/~junjie/publication/Kinematic%20Analysis%20and%20Design%20Optimization%20for%20a%20Reduced-DoF%20Quadruped%20Robot%20with%20Minimal%20Torque%20Requirements.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://youtu.be/r-OWLAW6yp0">Video</a>
                 </p>
+                <div style="clear: both;"></div>
             </div>
 
             <div>
-                <a href="https://xskillcorl.github.io/" style="height: 14em;" class="research-thumb">
-                    <img width="320" src="assets/images/Xskill.png" alt="">
-                </a>
-                <a href="https://xskillcorl.github.io/" class="research-proj-title">
-                    XSkill: Cross Embodiment Skill Discovery
-                </a>
-                <p>
-                    <a style="color:#000;" href="https://mengdaxu.github.io/">Mengda Xu</a>,
-                    <a style="color:#000;" href="https://zhenjiaxu.com/">Zhenjia Xu</a>,
-                    <b>Cheng Chi</b>,
-                    <a style="color:#000;" href="https://www.cs.cmu.edu/~mmv/">Manuela Veloso</a>,
-                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
-                    <br>Conference on Robot Learning (CoRL) 2023<br>
-                    <a href="https://xskillcorl.github.io/"">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2307.09955">ArXiv</a>
-                    <!-- &nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
-                    <!-- <a href="https://youtu.be/7h3SZ3La-oA">Video</a> -->
-                </p>
-            </div>
-
-            <div>
-                <a href="https://roboninja.cs.columbia.edu/" style="height: 12em;" class="research-thumb">
+                <a href="https://arxiv.org/pdf/1909.06339" class="research-thumb" style="height: 14em;">
                     <video width="320" height="auto" autoplay loop muted>
-                        <source src="assets/images/robo_ninjia.mp4" type="video/mp4">
+                        <source src="assets/images/publications/climbing.mp4" type="video/mp4">
                     </video>
                 </a>
-                <a href="https://roboninja.cs.columbia.edu/" class="research-proj-title">
-                    RoboNinja: Learning an Adaptive Cutting Policy for Multi-Material Objects
+                <a href="https://arxiv.org/pdf/1909.06339" class="research-proj-title">
+                    Optimization Based Motion Planning for Multi-limbed Vertical Climbing Robots
                 </a>
                 <p>
-                    <a style="color:#000;" href="https://zhenjiaxu.com/">Zhenjia Xu</a>,
-                    <a style="color:#000;" href="https://scholar.google.com.sg/citations?user=Kbi2t9sAAAAJ&hl=en">Zhou Xian</a>,
-                    <a style="color:#000;" href="https://xingyu-lin.github.io/">Xingyu Lin</a>,
-                    <b>Cheng Chi</b>,
-                    <a style="color:#000;" href="https://sites.google.com/view/zhiao-huang">Zhiao Huang</a>,
-                    <a style="color:#000;" href="https://people.csail.mit.edu/ganchuang/">Chuang Gan</a>,
-                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
-                    <br>Robotics: Science and Systems (RSS) 2023<br>
-                    <a href="https://roboninja.cs.columbia.edu/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2302.11553">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://youtu.be/SyEAP_jlgSQ">Video</a>
-                </p>
-            </div>
-
-            <div>
-                <a href="https://clothfunnels.cs.columbia.edu/" style="height: 14em;" class="research-thumb">
-                    <img src="assets/images/funnel.png"
-                        style=" margin-bottom:0px;"
-                        alt="">
-                </a>
-                <a href="https://clothfunnels.cs.columbia.edu/" class="research-proj-title">
-                    Cloth Funnels: Canonicalized-Alignment for Multi-Purpose Garment Manipulation
-                </a>
-                <p>
-                    <a style="color:#000;" href="https://alpercanberk.github.io/">Alper Canberk</a>,
-                    <b>Cheng Chi</b>,
-                    <a style="color:#000;" href="http://www.benburchfiel.com/">Huy Ha</a>,
-                    <a style="color:#000;" href="http://www.benburchfiel.com/">Ben Burchfiel</a>,
-                    <a style="color:#000;" href="https://www.eacousineau.com/">Eric Cousineau</a>,
-                    <a style="color:#000;" href="https://www.cs.cmu.edu/~sfeng/">Siyuan Feng</a>,
-                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
-                    <br>International Conference on Robotics and Automation (ICRA) 2023<br>
-                    <a href="https://clothfunnels.cs.columbia.edu/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2210.09347">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://youtu.be/TkUn0b7mbj0">Video</a>
-                </p>
-            </div>
-
-            <div>
-                <a href="https://irp.cs.columbia.edu/" style="height: 12em;" class="research-thumb">
-                    <video width="320" height="auto" autoplay loop muted>
-                        <source src="assets/images/irp_gif_short.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <a href="https://irp.cs.columbia.edu/" class="research-proj-title">
-                    Iterative Residual Policy: for Goal-Conditioned Dynamic Manipulation of Deformable Objects
-                </a>
-                <p>
-                    <b>Cheng Chi</b>,
-                    <a style="color:#000;" href="http://www.benburchfiel.com/">Benjamin Burchfiel</a>,
-                    <a style="color:#000;" href="https://www.eacousineau.com/">Eric Cousineau</a>,
-                    <a style="color:#000;" href="https://www.cs.cmu.edu/~sfeng/">Siyuan Feng</a>,
-                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>,
-                    <br>Robotics: Science and Systems (RSS) 2022<br>
-                    <strong>Best Paper Award</strong> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <strong>Best Student Paper Finalist</strong>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://irp.cs.columbia.edu/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2203.00663">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://youtu.be/7h3SZ3La-oA">Video</a>
-                </p>
-            </div>
-
-            <div>
-                <a href="https://dextairity.cs.columbia.edu/" style="height: 14em;" class="research-thumb">
-                    <video width="320" height="auto" autoplay loop muted>
-                        <source src="assets/images/dextairty_thumbnail.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <a href="https://dextairity.cs.columbia.edu/" class="research-proj-title">
-                    DextAIRity: Deformable Manipulation Can be a Breeze
-                </a>
-                <p>
-                    <a style="color:#000;" href="https://www.zhenjiaxu.com">Zhenjia Xu</a>,
-                    <b>Cheng Chi</b>,
-                    <a style="color:#000;" href="http://www.benburchfiel.com/">Benjamin Burchfiel</a>,
-                    <a style="color:#000;" href="https://www.eacousineau.com/">Eric Cousineau</a>,
-                    <a style="color:#000;" href="https://www.cs.cmu.edu/~sfeng/">Siyuan Feng</a>,
-                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>,
-                    <br>Robotics: Science and Systems (RSS) 2022<br>
-                    <strong>Best Systems Paper Finalist</strong> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://dextairity.cs.columbia.edu/">Website</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2203.01197">ArXiv</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://youtu.be/_B0TpAa5tVo">Video</a>
-                </p>
-            </div>
-
-            <div>
-                <a href="https://garmentnets.cs.columbia.edu/" style="height: 12em;" class="research-thumb">
-                    <video width="320" height="auto" autoplay loop muted>
-                        <source src="assets/images/garment-nets.mp4" type="video/mp4">
-                    </video>
-                </a>
-                <a href="https://garmentnets.cs.columbia.edu/" class="research-proj-title">
-                  GarmentNets: Category-Level Pose Estimation for Garments via Canonical Space Shape Completion
-                </a>
-                <p>
-                    <b>Cheng Chi</b>, <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
-                    <br>The IEEE International Conference on Computer Vision (ICCV) 2021<br>
-                    <a href="https://garmentnets.cs.columbia.edu/">Website</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2104.05177">ArXiv</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://www.youtube.com/watch?v=agZ8bzP6Vig">Video</a>
-                </p>
-            </div>
-            <div>
-                <a class="research-thumb">
-                  <img src="assets/images/cpcpd_teaser.png" alt="">
-                </a>
-                <a class="research-proj-title"> 
-                  Occlusion-robust Deformable Object Tracking without Physics Simulation 
-                </a>
-                <p>
-                    <b>Cheng Chi</b>, <a style="color:#000;"
-                        href="https://web.eecs.umich.edu/~dmitryb/">Dmitry Berenson</a>
+                    Xuan Lin, <b>Jingwen Zhang</b>, Junjie Shen, Gabriel Fernandez, Dennis W Hong
                     <br>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2019<br>
-                    <a href="https://arxiv.org/abs/2101.00733">ArXiv</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://github.com/UM-ARM-Lab/cdcpd">Github</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                    <a href="https://www.youtube.com/watch?v=NehFOkpCEHg">Video</a>
+                    <strong>IROS Best Paper Award on Safety, Security, and Rescue Robotics</strong> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/pdf/1909.06339">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=AXmrqnt3JIA">Video</a>
                 </p>
+                <div style="clear: both;"></div>
             </div>
-            <!-- <div>
-                <p>* indicates equal contribution</p>
-            </div> -->
-
+            
             <div style="clear: both;"></div>
         </div>
-        <!-- <div class="divider"></div>
-        <div style="display:flex;flex-direction: column;">
-            <h1>Projects</h1>
-            <div>
-                <a href="soft-creatures/index.html" class="research-thumb"><img
-                        src="soft-creatures/gifs/elizabeth-hickey-small.gif" alt=""></a>
-                <a href="soft-creatures/index.html" class="research-proj-title">Coevolution of Morphology and Policy
-                    Implicit Neural Functions</a>
-                <p>
-                    <b>Huy Ha</b><br>
-                    <a href="https://github.com/huy-ha/coevolving-neural-networks">Github</a>,
-                    <a href="soft-creatures/index.html">Website</a>
-                </p>
-            </div>
-            <div style="clear: both;"></div>
-        </div> -->
     </div>
     <!-- <script src="js/pixi.min.js"></script> -->
     <!-- <script src="js/profile-pic.js"></script> -->
