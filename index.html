@@ -15,7 +15,6 @@
             <a href="#profile-intro">Home</a>
             <a href="#updates">Updates</a>
             <a href="#research">Research</a>
-            <!-- <a href="#projects">Projects</a> -->
         </header>
         <div id="profile">
             <div id="profile-pic">
@@ -242,9 +241,36 @@
             
             <div style="clear: both;"></div>
         </div>
+        <div class="divider"></div>
+        <div class="visitor-analytics" id="visitor-analytics">
+            <div class="analytics-banner">
+                <div class="banner-stats">
+                    <div class="banner-stat">
+                        <span class="banner-number" id="total-visits">---</span>
+                        <span class="banner-label">Total Visits</span>
+                    </div>
+                    <div class="banner-stat">
+                        <span class="banner-number" id="unique-locations">---</span>
+                        <span class="banner-label">Countries</span>
+                    </div>
+                    <div class="banner-info">
+                        Anonymous tracking • <a href="https://www.openstreetmap.org/" target="_blank">OSM</a>
+                    </div>
+                </div>
+                <div class="banner-map-container">
+                    <div id="visitor-map"></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- <script src="js/pixi.min.js"></script> -->
-    <!-- <script src="js/profile-pic.js"></script> -->
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="assets/js/visitor-map.js"></script>
 </body>
 
 </html>
